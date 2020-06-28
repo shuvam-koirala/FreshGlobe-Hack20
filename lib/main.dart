@@ -4,7 +4,7 @@ import 'particaleffect.dart';
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: '/login',
+    initialRoute: '/',
     routes: {
       '/': (context) => HomeScreen(),
       '/login': (context) => CircularParticleLogin(),
