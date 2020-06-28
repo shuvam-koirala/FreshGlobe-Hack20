@@ -8,6 +8,7 @@ void main() {
     routes: {
       '/': (context) => HomeScreen(),
       '/login': (context) => CircularParticleLogin(),
+      '/register': (context) => CircularParticleRegister(),
     },
   ));
 }
