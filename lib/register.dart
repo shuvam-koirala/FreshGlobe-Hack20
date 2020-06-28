@@ -56,7 +56,7 @@ class CircularParticleRegister extends StatelessWidget {
                     SizedBox(
                       height: 20,
                     ),
-// ******************* Email ******************* //
+// ******************* Username ******************* //
                     Container(
                       height: 70,
                       width: 350,
