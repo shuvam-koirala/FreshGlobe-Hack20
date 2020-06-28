@@ -41,13 +41,18 @@ class _Profile3State extends State<Profile3> {
                       top: 5,
                       left: 5,
                       child: Card(
+                        elevation: 20,
                         child: Column(
                           children: [
-                            Image.asset(
-                              "images/crafting.jpg",
-                              width: MediaQuery.of(context).size.width * 0.15,
-                              height: MediaQuery.of(context).size.height * 0.2,
-                              fit: BoxFit.cover,
+                            Padding(
+                              padding: const EdgeInsets.all(5.0),
+                              child: Image.asset(
+                                "images/crafting.jpg",
+                                width: MediaQuery.of(context).size.width * 0.15,
+                                height:
+                                    MediaQuery.of(context).size.height * 0.2,
+                                fit: BoxFit.cover,
+                              ),
                             ),
                             SizedBox(
                               height: 5,
@@ -61,13 +66,18 @@ class _Profile3State extends State<Profile3> {
                       top: 1,
                       right: 20,
                       child: Card(
+                        elevation: 20,
                         child: Column(
                           children: [
-                            Image.asset(
-                              "images/watering.jpg",
-                              width: MediaQuery.of(context).size.width * 0.15,
-                              height: MediaQuery.of(context).size.height * 0.2,
-                              fit: BoxFit.cover,
+                            Padding(
+                              padding: const EdgeInsets.all(5.0),
+                              child: Image.asset(
+                                "images/watering.jpg",
+                                width: MediaQuery.of(context).size.width * 0.15,
+                                height:
+                                    MediaQuery.of(context).size.height * 0.2,
+                                fit: BoxFit.cover,
+                              ),
                             ),
                             SizedBox(
                               height: 5,
@@ -81,13 +91,18 @@ class _Profile3State extends State<Profile3> {
                       top: 90,
                       left: 280,
                       child: Card(
+                        elevation: 20,
                         child: Column(
                           children: [
-                            Image.asset(
-                              "images/recycle.jpg",
-                              width: MediaQuery.of(context).size.width * 0.15,
-                              height: MediaQuery.of(context).size.height * 0.2,
-                              fit: BoxFit.cover,
+                            Padding(
+                              padding: const EdgeInsets.all(5.0),
+                              child: Image.asset(
+                                "images/recycle.jpg",
+                                width: MediaQuery.of(context).size.width * 0.15,
+                                height:
+                                    MediaQuery.of(context).size.height * 0.2,
+                                fit: BoxFit.cover,
+                              ),
                             ),
                             SizedBox(
                               height: 5,
@@ -101,6 +116,7 @@ class _Profile3State extends State<Profile3> {
                       bottom: 30,
                       left: 20,
                       child: Card(
+                        elevation: 20,
                         child: Column(
                           children: [
                             Padding(
@@ -125,6 +141,7 @@ class _Profile3State extends State<Profile3> {
                       bottom: 1,
                       right: 30,
                       child: Card(
+                        elevation: 20,
                         child: Column(
                           children: [
                             Padding(
