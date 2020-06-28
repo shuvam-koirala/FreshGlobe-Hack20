@@ -42,18 +42,38 @@ class CircularParticleRegister extends StatelessWidget {
               ),
             ),
             Positioned(
-              top: 170,
-              left: 580,
+              top: 100,
+              left: 560,
               child: Container(
-                height: 400,
+                height: 600,
                 width: 400,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Colors.green.withOpacity(0.8),
+                  color: Colors.green.withOpacity(0.😎,
                 ),
                 child: Column(
                   children: [
-// ******************* Email ******************* //
+                    SizedBox(
+                      height: 20,
+                    ),
+// ***************** Username ***************** //
+                    Container(
+                      height: 70,
+                      width: 350,
+                      child: TextField(
+                        decoration: InputDecoration(
+                          focusedBorder: OutlineInputBorder(
+                            borderSide:
+                                BorderSide(color: Colors.green, width: 1.0),
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          filled: true,
+                          fillColor: Colors.white.withOpacity(0.😎,
+                          labelText: 'Username',
+                          border: InputBorder.none,
+                        ),
+                      ),
+                    ),
                     SizedBox(
                       height: 20,
                     ),
@@ -68,14 +88,14 @@ class CircularParticleRegister extends StatelessWidget {
                             borderRadius: BorderRadius.circular(15),
                           ),
                           filled: true,
-                          fillColor: Colors.white.withOpacity(0.8),
+                          fillColor: Colors.white.withOpacity(0.😎,
                           labelText: 'Email',
                           border: InputBorder.none,
                         ),
                       ),
                     ),
 
-// ******************* Password ******************* //
+// ***************** Password ***************** //
                     SizedBox(
                       height: 20,
                     ),
@@ -85,7 +105,7 @@ class CircularParticleRegister extends StatelessWidget {
                       child: TextField(
                         decoration: InputDecoration(
                           suffixIcon: Icon(
-                            Icons.visibility,
+                            Icons.remove_red_eye,
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderSide:
@@ -93,14 +113,14 @@ class CircularParticleRegister extends StatelessWidget {
                             borderRadius: BorderRadius.circular(15),
                           ),
                           filled: true,
-                          fillColor: Colors.white.withOpacity(0.8),
+                          fillColor: Colors.white.withOpacity(0.😎,
                           labelText: 'Password',
                           border: InputBorder.none,
                         ),
                       ),
                     ),
 
-// ******************** Confirm Password **************************** //
+// ****************** Confirm Password ************************** //
                     SizedBox(
                       height: 20,
                     ),
@@ -116,7 +136,7 @@ class CircularParticleRegister extends StatelessWidget {
                             borderRadius: BorderRadius.circular(15),
                           ),
                           filled: true,
-                          fillColor: Colors.white.withOpacity(0.8),
+                          fillColor: Colors.white.withOpacity(0.😎,
                           labelText: 'Confirm Password',
                           border: InputBorder.none,
                         ),
@@ -126,7 +146,7 @@ class CircularParticleRegister extends StatelessWidget {
                       height: 5,
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(left: 8),
+                      padding: const EdgeInsets.only(left: 😎,
                       child: Row(
                         children: <Widget>[
                           Checkbox(
@@ -162,7 +182,7 @@ class CircularParticleRegister extends StatelessWidget {
                             onPressed: () {},
                             color: Colors.purple,
                             child: Container(
-                                child: Text('Login',
+                                child: Text('Sign Up',
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold,
