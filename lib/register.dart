@@ -52,8 +52,7 @@ class CircularParticleRegister extends StatelessWidget {
 
                   color: Colors.green.withOpacity(0.8),
 
-                  color: Colors.green.withOpacity(0),
-
+              
                 ),
                 child: Column(
                   children: [
@@ -75,7 +74,7 @@ class CircularParticleRegister extends StatelessWidget {
 
                           fillColor: Colors.white.withOpacity(0.8),
 
-                          fillColor: Colors.white.withOpacity(0),
+                        
 
                           labelText: 'Username',
                           border: InputBorder.none,
@@ -99,7 +98,7 @@ class CircularParticleRegister extends StatelessWidget {
 
                           fillColor: Colors.white.withOpacity(0.8),
 
-                          fillColor: Colors.white.withOpacity(0),
+                  
 
                           labelText: 'Email',
                           border: InputBorder.none,
@@ -128,7 +127,6 @@ class CircularParticleRegister extends StatelessWidget {
 
                           fillColor: Colors.white.withOpacity(0.8),
 
-                          fillColor: Colors.white.withOpacity(0),
 
                           labelText: 'Password',
                           border: InputBorder.none,
@@ -155,7 +153,7 @@ class CircularParticleRegister extends StatelessWidget {
 
                           fillColor: Colors.white.withOpacity(0.8),
 
-                          fillColor: Colors.white.withOpacity(0),
+                     
 
                           labelText: 'Confirm Password',
                           border: InputBorder.none,
@@ -168,8 +166,6 @@ class CircularParticleRegister extends StatelessWidget {
                     Padding(
 
                       padding: const EdgeInsets.only(left: 8),
-
-                      padding: const EdgeInsets.only(left: 8.0),
 
                       child: Row(
                         children: <Widget>[
