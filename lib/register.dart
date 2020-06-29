@@ -189,6 +189,28 @@ class CircularParticleRegister extends StatelessWidget {
                                     ))),
                           )),
                     ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.pushReplacementNamed(context, '/login');
+                      },
+                      child: Container(
+                        child: Text(
+                          'Back to log in page',
+                          style: TextStyle(
+                            decoration: TextDecoration.underline,
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
                   ],
                 ),
               ),
