@@ -21,6 +21,7 @@ class _BottomProfile1State extends State<BottomProfile1> {
               children: [
                 FaIcon(FontAwesomeIcons.hammer),
                 SizedBox(
+                  //
                   width: 20,
                 ),
                 Text(

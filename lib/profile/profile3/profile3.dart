@@ -17,7 +17,7 @@ class _Profile3State extends State<Profile3> {
           border: Border.all(
             color: Colors.black,
             width: 1.5,
-            style: BorderStyle.solid,
+            style: BorderStyle.solid, //
           )),
       child: Column(
         children: [
