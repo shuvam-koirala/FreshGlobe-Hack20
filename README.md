@@ -1,6 +1,5 @@
 # freshglobe
-
-A new Flutter project.
+This is a eco friendly project
 
 ## Getting Started
 
