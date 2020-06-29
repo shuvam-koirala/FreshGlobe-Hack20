@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:freshglobe/profile/profile1/bottom_profile1.dart';
 import 'package:freshglobe/profile/profile1/middle_profile1.dart';
 import 'package:freshglobe/profile/profile1/top_profile1.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Profile1 extends StatefulWidget {
   @override

@@ -68,6 +68,26 @@ class _MiddleProfile1State extends State<MiddleProfile1> {
                 )),
           ],
         ),
+        SizedBox(
+          width: 15,
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text("5",
+                style: GoogleFonts.spartan(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w700,
+                  fontStyle: FontStyle.italic,
+                )),
+            Text("POINTS",
+                style: GoogleFonts.spartan(
+                  fontSize: 8,
+                  fontWeight: FontWeight.w700,
+                  fontStyle: FontStyle.italic,
+                )),
+          ],
+        ),
       ],
     );
   }
