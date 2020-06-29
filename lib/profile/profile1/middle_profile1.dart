@@ -24,6 +24,7 @@ class _MiddleProfile1State extends State<MiddleProfile1> {
                 )),
             Text("POSTS",
                 style: GoogleFonts.spartan(
+                  //
                   fontSize: 8,
                   fontWeight: FontWeight.w700,
                   fontStyle: FontStyle.italic,

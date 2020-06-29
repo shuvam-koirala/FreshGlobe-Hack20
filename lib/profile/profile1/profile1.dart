@@ -23,7 +23,7 @@ class _Profile1State extends State<Profile1> {
           endIndent: 10,
           thickness: 10,
           height: 30,
-          color: Colors.red,
+          color: Colors.red, //
         ),
         MiddleProfile1(),
         Divider(
