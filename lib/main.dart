@@ -10,14 +10,12 @@ import 'profile/profile.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    initialRoute: '/profile',
+    initialRoute: '/',
     routes: {
       '/': (context) => HomeScreen(),
       '/login': (context) => CircularParticleLogin(),
       '/register': (context) => CircularParticleRegister(),
-
       "/profile": (context) => Profile(),
-
     },
   ));
 }
