@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:freshglobe/shrijal/postContainer.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:freshglobe/shrijal/postContainer2.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Profile3 extends StatefulWidget {
@@ -41,7 +42,11 @@ class _Profile3State extends State<Profile3> {
             child: Row(
               children: [
                 PostContainer(),
+                SizedBox(width: 10),
                 PostContainer(),
+                SizedBox(width: 10),
+                PostContainer(),
+                SizedBox(width: 10),
               ],
             ),
           ),
