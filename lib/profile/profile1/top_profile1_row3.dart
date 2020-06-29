@@ -22,7 +22,7 @@ class _TopProfile1Row3State extends State<TopProfile1Row3> {
             style: GoogleFonts.spartan(
               fontSize: 10,
               fontWeight: FontWeight.w700,
-              fontStyle: FontStyle.italic,
+              fontStyle: FontStyle.italic, //
             )),
       ],
     );
