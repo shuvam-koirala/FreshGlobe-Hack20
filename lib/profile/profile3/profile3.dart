@@ -36,10 +36,14 @@ class _Profile3State extends State<Profile3> {
               )
             ],
           ),
-          Row(
-            children: [
-              PostContainer(),
-            ],
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                PostContainer(),
+                PostContainer(),
+              ],
+            ),
           ),
         ],
       ),
