@@ -49,14 +49,13 @@ class CircularParticleRegister extends StatelessWidget {
                 width: 400,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
-                  color: Colors.green.withOpacity(0),
+                  color: Colors.green.withOpacity(0.8),
                 ),
                 child: Column(
                   children: [
                     SizedBox(
                       height: 20,
                     ),
-// ***************** Username ***************** //
                     Container(
                       height: 70,
                       width: 350,
@@ -68,7 +67,7 @@ class CircularParticleRegister extends StatelessWidget {
                             borderRadius: BorderRadius.circular(15),
                           ),
                           filled: true,
-                          fillColor: Colors.white.withOpacity(0),
+                          fillColor: Colors.white.withOpacity(0.8),
                           labelText: 'Username',
                           border: InputBorder.none,
                         ),
@@ -88,14 +87,12 @@ class CircularParticleRegister extends StatelessWidget {
                             borderRadius: BorderRadius.circular(15),
                           ),
                           filled: true,
-                          fillColor: Colors.white.withOpacity(0),
+                          fillColor: Colors.white.withOpacity(0.8),
                           labelText: 'Email',
                           border: InputBorder.none,
                         ),
                       ),
                     ),
-
-// ***************** Password ***************** //
                     SizedBox(
                       height: 20,
                     ),
@@ -113,14 +110,12 @@ class CircularParticleRegister extends StatelessWidget {
                             borderRadius: BorderRadius.circular(15),
                           ),
                           filled: true,
-                          fillColor: Colors.white.withOpacity(0),
+                          fillColor: Colors.white.withOpacity(0.8),
                           labelText: 'Password',
                           border: InputBorder.none,
                         ),
                       ),
                     ),
-
-// ****************** Confirm Password ************************** //
                     SizedBox(
                       height: 20,
                     ),
@@ -136,7 +131,7 @@ class CircularParticleRegister extends StatelessWidget {
                             borderRadius: BorderRadius.circular(15),
                           ),
                           filled: true,
-                          fillColor: Colors.white.withOpacity(0),
+                          fillColor: Colors.white.withOpacity(0.8),
                           labelText: 'Confirm Password',
                           border: InputBorder.none,
                         ),
@@ -146,7 +141,7 @@ class CircularParticleRegister extends StatelessWidget {
                       height: 5,
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(left: 8.0),
+                      padding: const EdgeInsets.only(left: 8),
                       child: Row(
                         children: <Widget>[
                           Checkbox(
@@ -188,6 +183,28 @@ class CircularParticleRegister extends StatelessWidget {
                                       fontWeight: FontWeight.bold,
                                     ))),
                           )),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    InkWell(
+                      onTap: () {
+                        Navigator.pushReplacementNamed(context, '/login');
+                      },
+                      child: Container(
+                        child: Text(
+                          'Back to log in page',
+                          style: TextStyle(
+                            decoration: TextDecoration.underline,
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 20,
                     ),
                   ],
                 ),
