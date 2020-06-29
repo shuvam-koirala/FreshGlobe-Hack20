@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:particles_flutter/particles_flutter.dart';
+import 'main.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key key}) : super(key: key);
@@ -8,8 +10,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     double screenHeight = MediaQuery.of(context).size.height;
     double screenWidth = MediaQuery.of(context).size.width;
-    return Center(
-      child: Stack(
+    return Scaffold(
+      body: Stack(
         children: [
           Container(
             height: 1000,
@@ -55,50 +57,63 @@ class HomeScreen extends StatelessWidget {
           Positioned(
             top: 250,
             left: 450,
-            child: Container(
-              height: 400,
-              width: 300,
-              child: Card(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      'Log in',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 40,
-                        fontWeight: FontWeight.bold,
+            child: InkWell(
+              onTap: () {
+                Navigator.pushReplacementNamed(context, '/login');
+              },
+              // highlightColor: Colors.blue,
+              hoverColor: Colors.blue.withOpacity(0.9),
+              child: Container(
+                height: 400,
+                width: 300,
+                child: Card(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Log in',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 40,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
+                  elevation: 8,
+                  color: Colors.blue.withOpacity(0.9),
                 ),
-                elevation: 8,
-                color: Colors.blue.withOpacity(0.9),
               ),
             ),
           ),
           Positioned(
             top: 250,
             left: 800,
-            child: Container(
-              height: 400,
-              width: 300,
-              child: Card(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      'Sign Up',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 40,
-                        fontWeight: FontWeight.bold,
+            child: InkWell(
+              onTap: () {
+                Navigator.pushReplacementNamed(context, '/register');
+              },
+              hoverColor: Colors.green.withOpacity(0.9),
+              child: Container(
+                height: 400,
+                width: 300,
+                child: Card(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Sign Up',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 40,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
+                  elevation: 8,
+                  color: Colors.green.withOpacity(0.9),
                 ),
-                elevation: 8,
-                color: Colors.green.withOpacity(0.9),
               ),
             ),
           ),
