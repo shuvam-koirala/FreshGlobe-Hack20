@@ -1,6 +1,11 @@
 # freshglobe
 This is a eco friendly project
 
+<img src="Screenshots/login.png">
+<img src="Screenshots/home.png">
+<img src="Screenshots/signup.png">
+<img src="Screenshots/feed.png">
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
